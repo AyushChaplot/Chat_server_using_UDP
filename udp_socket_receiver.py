@@ -11,7 +11,7 @@ afn=socket.AF_INET
 s = socket.socket(afn, myp)
 
 ip = "192.168.43.12"
-port = 2222
+port = 1234
 
 s.bind( (ip,port) )
 
